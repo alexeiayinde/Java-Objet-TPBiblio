@@ -21,7 +21,8 @@ public class Library {
 	public int countDVD() {
 		int count = 0;
 		for (int i = 0; i < collection.size(); i++) {
-			if (collection.get(i).getClass().equals(Video.class)) {
+			// if (collection.get(i).getClass().equals(Video.class)) { --> Autre possibilité
+			if (collection.get(i) instanceof Video) {
 				if (((Video) (collection.get(i))).getVideoType().equals(SupportVideo.DVD))
 					count++;
 			}
