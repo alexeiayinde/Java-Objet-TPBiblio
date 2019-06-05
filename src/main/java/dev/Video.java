@@ -1,6 +1,6 @@
 package dev;
 
-public class Video extends Document {
+public final class Video extends Document {
 
 	private SupportVideo videoType;
 

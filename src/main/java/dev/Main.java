@@ -7,7 +7,7 @@ public class Main {
 		Library lib = new Library();
 
 		lib.addDocument(new Magazine("Socialter", "Alexei", 20, 10));
-		lib.addDocument(new Book("Monsoon", "Wilbur Smith", 700));
+		lib.addDocument(new Book("Monsoon", "Wilbur Smith", 700, true));
 		lib.addDocument(new Video("Batman Begins", "Christopher Nolan", SupportVideo.DVD));
 		lib.addDocument(new Video("The Dark Knight", "Christopher Nolan", SupportVideo.DVD));
 		lib.addDocument(new Video("Interstellar", "Christopher Nolan", SupportVideo.BluRay));

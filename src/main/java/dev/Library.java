@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Library {
 
-	private ArrayList<Document> collection = new ArrayList();
+	private ArrayList<Document> collection = new ArrayList<Document>();
 
 	public ArrayList<Document> getCollection() {
 		return collection;
@@ -21,7 +21,7 @@ public class Library {
 	public int countDVD() {
 		int count = 0;
 		for (int i = 0; i < collection.size(); i++) {
-			// if (collection.get(i).getClass().equals(Video.class)) { --> Autre possibilitÈ
+			// if (collection.get(i).getClass().equals(Video.class)) { --> Autre possibilit√©
 			if (collection.get(i) instanceof Video) {
 				if (((Video) (collection.get(i))).getVideoType().equals(SupportVideo.DVD))
 					count++;

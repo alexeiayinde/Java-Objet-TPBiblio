@@ -1,6 +1,6 @@
 package dev;
 
-public class Magazine extends WrittenDoc {
+public final class Magazine extends WrittenDoc {
 
 	private int publicationNumber;
 

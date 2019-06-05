@@ -1,10 +1,10 @@
 package dev;
 
-public class Book extends WrittenDoc {
+public final class Book extends WrittenDoc {
 
-	protected Book(String title, String author, int nbPages) {
+	protected Book(String title, String author, int nbPages, boolean canBorrow) {
 		super(title, author, nbPages);
-		this.canBorrow = true;
+		this.canBorrow = canBorrow;
 	}
 
 }
