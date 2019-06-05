@@ -24,8 +24,8 @@ public abstract class WrittenDoc extends Document {
 
 	@Override
 	public String toString() {
-		return super.toString() + "\nNombre de pages : " + nbPages + "\nCoût du document : " + this.documentCost()
-				+ " €";
+		return super.toString() + "\nNombre de pages : " + nbPages + "\nCoÃ»t du document : " + this.documentCost()
+				+ " â‚¬";
 	}
 
 }
